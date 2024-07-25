@@ -1,0 +1,36 @@
+INFO - 2024-06-13 06:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-13 06:19:28 --> ErrorException: Array to string conversion
+[Method: POST, Route: adminApi/Auth/SendNotification]
+in APPPATH\Controllers\FirebaseMessagingController.php on line 98.
+ 1 APPPATH\Controllers\FirebaseMessagingController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Controllers\\FirebaseMessagingController.php', 98)
+ 2 APPPATH\Controllers\AdminApiController.php(117): App\Controllers\FirebaseMessagingController->SendNotification([...], 'Test Notification Title', 'Test Notification Body', '', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->SendNotification()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-13 06:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-13 06:20:06 --> ErrorException: Array to string conversion
+[Method: POST, Route: adminApi/Auth/SendNotification]
+in APPPATH\Controllers\FirebaseMessagingController.php on line 98.
+ 1 APPPATH\Controllers\FirebaseMessagingController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Controllers\\FirebaseMessagingController.php', 98)
+ 2 APPPATH\Controllers\AdminApiController.php(117): App\Controllers\FirebaseMessagingController->SendNotification([...], 'Test Notification Title', 'Test Notification Body', '', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->SendNotification()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-13 06:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-13 06:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

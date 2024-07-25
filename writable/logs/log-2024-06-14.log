@@ -1,0 +1,116 @@
+WARNING - 2024-06-14 07:13:55 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('get')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-14 07:13:55 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('post')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-14 07:13:55 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('put')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-14 07:13:55 --> [DEPRECATED] Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('patch')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-14 07:13:55 --> [DEPRECATED] Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('delete')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+INFO - 2024-06-14 09:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-14 09:24:13 --> TypeError: App\Models\FunctionModel::RecordList(): Argument #1 ($filter) must be of type ?array, stdClass given, called in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php on line 41
+[Method: POST, Route: adminApi/State/List]
+in APPPATH\Models\FunctionModel.php on line 150.
+ 1 APPPATH\Controllers\AdminApiController.php(41): App\Models\FunctionModel->RecordList(Object(stdClass))
+ 2 APPPATH\Controllers\AdminApiController.php(199): App\Controllers\AdminApiController->ModelList(Object(App\Models\StateModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->StateList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-14 09:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-14 09:24:53 --> mysqli_sql_exception: Unknown column 'autoJoin' in 'where clause' in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Models\FunctionModel.php(176): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(41): App\Models\FunctionModel->RecordList(Array)
+#7 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(199): App\Controllers\AdminApiController->ModelList(Object(App\Models\StateModel))
+#8 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AdminApiController->StateList()
+#9 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+#10 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Brills...')
+#15 {main}
+INFO - 2024-06-14 09:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-14 09:29:43 --> mysqli_sql_exception: Unknown column 'city.city.city_name' in 'field list' in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `city`.`...', 0)
+#1 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `city`.`...')
+#2 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `city`.`...')
+#3 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `city`.`...', Array, false)
+#4 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Models\FunctionModel.php(178): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(41): App\Models\FunctionModel->RecordList(Array)
+#7 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(226): App\Controllers\AdminApiController->ModelList(Object(App\Models\CityModel))
+#8 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AdminApiController->CityList()
+#9 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+#10 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Brills...')
+#15 {main}
+INFO - 2024-06-14 09:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 09:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 10:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-14 10:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

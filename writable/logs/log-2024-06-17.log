@@ -1,0 +1,821 @@
+INFO - 2024-06-17 04:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:43:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/title-meta.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/title-meta.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partials/title-meta', [], true)
+ 3 APPPATH\Controllers\AuthController.php(13): view('partials/title-meta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:45:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/title-meta.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/title-meta.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partials/title-meta', [], true)
+ 3 APPPATH\Controllers\AuthController.php(13): view('partials/title-meta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:46:47 --> ErrorException: Undefined variable $_assets_path
+[Method: GET, Route: /]
+in APPPATH\Views\AdminPanelNew\partials\main.php on line 9.
+ 1 APPPATH\Views\AdminPanelNew\partials\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_assets_path', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('AdminPanelNew/partials/main', null, true)
+ 5 APPPATH\Views\AdminPanelNew\pages\Auth\login.php(1): CodeIgniter\View\View->include('AdminPanelNew/partials/main')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\pages\\Auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/pages/Auth/login', [], true)
+ 9 APPPATH\Controllers\AuthController.php(12): view('AdminPanelNew/pages/Auth/login')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:47:36 --> ErrorException: Undefined variable $_assets_path
+[Method: GET, Route: /]
+in APPPATH\Views\AdminPanelNew\partials\main.php on line 9.
+ 1 APPPATH\Views\AdminPanelNew\partials\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_assets_path', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('AdminPanelNew/partials/main', null, true)
+ 5 APPPATH\Views\AdminPanelNew\pages\Auth\login.php(1): CodeIgniter\View\View->include('AdminPanelNew/partials/main')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\pages\\Auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/pages/Auth/login', [], true)
+ 9 APPPATH\Controllers\AuthController.php(12): view('AdminPanelNew/pages/Auth/login')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:48:02 --> ErrorException: Undefined variable $_assets_path
+[Method: GET, Route: /]
+in APPPATH\Views\AdminPanelNew\partials\main.php on line 9.
+ 1 APPPATH\Views\AdminPanelNew\partials\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_assets_path', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 5 APPPATH\Views\AdminPanelNew\pages\Auth\login.php(1): view('AdminPanelNew/partials/main')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\pages\\Auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/pages/Auth/login', [], true)
+ 9 APPPATH\Controllers\AuthController.php(12): view('AdminPanelNew/pages/Auth/login')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:48:29 --> ErrorException: Undefined variable $_assets_path
+[Method: GET, Route: /]
+in APPPATH\Views\AdminPanelNew\partials\main.php on line 9.
+ 1 APPPATH\Views\AdminPanelNew\partials\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_assets_path', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 5 APPPATH\Views\AdminPanelNew\pages\Auth\login.php(1): view('AdminPanelNew/partials/main')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\pages\\Auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/pages/Auth/login', [], true)
+ 9 APPPATH\Controllers\AuthController.php(12): view('AdminPanelNew/pages/Auth/login')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 04:54:22 --> ErrorException: Undefined variable $theme_data
+[Method: GET, Route: /]
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 APPPATH\Controllers\AuthController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme_data', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Controllers\\AuthController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 04:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 04:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-17 05:06:19 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('get')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-17 05:06:19 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('post')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-17 05:06:19 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('put')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-17 05:06:19 --> [DEPRECATED] Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('patch')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+WARNING - 2024-06-17 05:06:19 --> [DEPRECATED] Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE". in SYSTEMPATH\Router\RouteCollection.php on line 635.
+ 1 SYSTEMPATH\Router\RouteCollection.php(635): trigger_error('Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE".', 16384)
+ 2 APPPATH\Commands\GeneratePostmanCollectionCI4.php(63): CodeIgniter\Router\RouteCollection->setHTTPVerb('delete')
+ 3 APPPATH\Commands\GeneratePostmanCollectionCI4.php(40): App\Commands\GeneratePostmanCollectionCI4->generatePostmanCollection('mycollection.json')
+ 4 SYSTEMPATH\CLI\Commands.php(70): App\Commands\GeneratePostmanCollectionCI4->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('postman:generate', [...])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-17 05:12:30 --> CodeIgniter\Filters\Exceptions\FilterException: "AdminApiAuth" filter must have a matching alias defined.
+[Method: POST, Route: adminApi/Auth/User/Create]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AdminApiAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('AdminApiAuth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+CRITICAL - 2024-06-17 05:14:20 --> CodeIgniter\Filters\Exceptions\FilterException: "AdminApiAuth" filter must have a matching alias defined.
+[Method: POST, Route: adminApi/Auth/User/Create]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AdminApiAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('AdminApiAuth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 05:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-17 05:18:54 --> mysqli_sql_exception: MySQL server has gone away in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Models\FunctionModel.php(200): CodeIgniter\Model->insert(Array)
+#8 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(51): App\Models\FunctionModel->RecordCreate(Array)
+#9 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php(322): App\Controllers\AdminApiController->ModelCreate(Object(App\Models\UserModel))
+#10 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AdminApiController->UserCreate()
+#11 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+#12 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Brills...')
+#17 {main}
+INFO - 2024-06-17 05:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 05:21:06 --> RuntimeException: JWT_SECRET_KEY not set in ENV
+[Method: POST, Route: adminApi/user/login]
+in APPPATH\Models\FunctionModel.php on line 308.
+ 1 APPPATH\Controllers\AdminApiController.php(284): App\Models\FunctionModel->generateJWTToken([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->UserLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 05:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 05:39:33 --> TypeError: App\Models\FunctionModel::RecordList(): Argument #1 ($filter) must be of type ?array, stdClass given, called in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php on line 41
+[Method: POST, Route: adminApi/Auth/User/List]
+in APPPATH\Models\FunctionModel.php on line 150.
+ 1 APPPATH\Controllers\AdminApiController.php(41): App\Models\FunctionModel->RecordList(Object(stdClass))
+ 2 APPPATH\Controllers\AdminApiController.php(315): App\Controllers\AdminApiController->ModelList(Object(App\Models\UserModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->UserList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 05:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 05:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 05:50:25 --> ErrorException: Undefined array key "HTTP_Authorization"
+[Method: POST, Route: adminApi/Auth/User/List]
+in APPPATH\Filters\AdminApiAuthFilter.php on line 34.
+ 1 APPPATH\Filters\AdminApiAuthFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_Authorization"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Filters\\AdminApiAuthFilter.php', 34)
+ 2 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AdminApiAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('adminApi/Auth/User/List', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 05:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 06:06:15 --> Error: Call to undefined function App\Filters\checkJwtTokenDecode()
+[Method: POST, Route: adminApi/Auth/User/List]
+in APPPATH\Filters\AdminApiAuthFilter.php on line 42.
+ 1 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AdminApiAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('adminApi/Auth/User/List', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 06:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 06:07:02 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: adminApi/Auth/User/List]
+in APPPATH\Filters\AdminApiAuthFilter.php on line 46.
+ 1 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AdminApiAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('adminApi/Auth/User/List', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 06:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 06:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:17:37 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Views\AdminPanelNew\partials\topbar.php(183): base_url(false)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\topbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/topbar', [], true)
+ 7 APPPATH\Views\AdminPanelNew\partials\main.php(19): view('AdminPanelNew/partials/topbar')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+11 APPPATH\Controllers\AdminPageController.php(23): view('AdminPanelNew/partials/main', [...])
+12 APPPATH\Controllers\AdminPageController.php(13): App\Controllers\AdminPageController->admin_dashboard()
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:18:18 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Views\AdminPanelNew\partials\topbar.php(183): base_url(false)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\topbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/topbar', [], true)
+ 7 APPPATH\Views\AdminPanelNew\partials\main.php(19): view('AdminPanelNew/partials/topbar')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+11 APPPATH\Controllers\AdminPageController.php(23): view('AdminPanelNew/partials/main', [...])
+12 APPPATH\Controllers\AdminPageController.php(13): App\Controllers\AdminPageController->admin_dashboard()
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:19:48 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Views\AdminPanelNew\partials\topbar.php(183): base_url(false)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\topbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/topbar', [], true)
+ 7 APPPATH\Views\AdminPanelNew\partials\main.php(19): view('AdminPanelNew/partials/topbar')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+11 APPPATH\Controllers\AdminPageController.php(23): view('AdminPanelNew/partials/main', [...])
+12 APPPATH\Controllers\AdminPageController.php(13): App\Controllers\AdminPageController->admin_dashboard()
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:21:18 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Views\AdminPanelNew\partials\topbar.php(183): base_url(false)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\topbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/topbar', [], true)
+ 7 APPPATH\Views\AdminPanelNew\partials\main.php(19): view('AdminPanelNew/partials/topbar')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+11 APPPATH\Controllers\AdminPageController.php(23): view('AdminPanelNew/partials/main', [...])
+12 APPPATH\Controllers\AdminPageController.php(13): App\Controllers\AdminPageController->admin_dashboard()
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:22:43 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Views\AdminPanelNew\partials\topbar.php(183): base_url(false)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\topbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/topbar', [], true)
+ 7 APPPATH\Views\AdminPanelNew\partials\main.php(19): view('AdminPanelNew/partials/topbar')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+11 APPPATH\Controllers\AdminPageController.php(23): view('AdminPanelNew/partials/main', [...])
+12 APPPATH\Controllers\AdminPageController.php(13): App\Controllers\AdminPageController->admin_dashboard()
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:52:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AdminPanelNew/pages/Dashboard/srock_dashboard.php"
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminPanelNew/pages/Dashboard/srock_dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/pages/Dashboard/srock_dashboard', [], true)
+ 3 APPPATH\Views\AdminPanelNew\partials\main.php(32): view('AdminPanelNew/pages/Dashboard/srock_dashboard')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 7 APPPATH\Controllers\AdminPageController.php(94): view('AdminPanelNew/partials/main', [...])
+ 8 APPPATH\Controllers\AdminPageController.php(31): App\Controllers\AdminPageController->stock_dashboard()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 07:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:57:37 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:58:15 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 07:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 07:59:02 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:02:27 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:32:28 --> ErrorException: Undefined array key "url"
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\AdminPanelNew\partials\sidebar.php on line 50.
+ 1 APPPATH\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/sidebar', [], true)
+ 5 APPPATH\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 9 APPPATH\Controllers\AdminPageController.php(44): view('AdminPanelNew/partials/main', [...])
+10 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:32:39 --> ErrorException: Undefined array key "url"
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\AdminPanelNew\partials\sidebar.php on line 50.
+ 1 APPPATH\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/sidebar', [], true)
+ 5 APPPATH\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 9 APPPATH\Controllers\AdminPageController.php(44): view('AdminPanelNew/partials/main', [...])
+10 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:33:31 --> ErrorException: Undefined array key "url"
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\AdminPanelNew\partials\sidebar.php on line 50.
+ 1 APPPATH\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/sidebar', [], true)
+ 5 APPPATH\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 9 APPPATH\Controllers\AdminPageController.php(44): view('AdminPanelNew/partials/main', [...])
+10 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:34:58 --> ErrorException: Undefined array key "url"
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\AdminPanelNew\partials\sidebar.php on line 50.
+ 1 APPPATH\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/sidebar', [], true)
+ 5 APPPATH\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 9 APPPATH\Controllers\AdminPageController.php(44): view('AdminPanelNew/partials/main', [...])
+10 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+CRITICAL - 2024-06-17 08:34:59 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(266): include()
+#1 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\Users\\Brills...')
+#3 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "url"
+#0 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Brills...', 50)
+#1 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\Users\\Brills...')
+#2 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/p...', Array, true)
+#4 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/p...')
+#5 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\View\View.php(234): include('C:\\Users\\Brills...')
+#6 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/p...', Array, true)
+#8 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminPageController.php(44): view('AdminPanelNew/p...', Array)
+#9 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+#10 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+#11 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+#12 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Brills...')
+#17 {main}
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-17 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:35:35 --> ErrorException: Undefined array key "url"
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Views\AdminPanelNew\partials\sidebar.php on line 50.
+ 1 APPPATH\Views\AdminPanelNew\partials\sidebar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/sidebar', [], true)
+ 5 APPPATH\Views\AdminPanelNew\partials\main.php(20): view('AdminPanelNew/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Views\\AdminPanelNew\\partials\\main.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminPanelNew/partials/main', [], true)
+ 9 APPPATH\Controllers\AdminPageController.php(44): view('AdminPanelNew/partials/main', [...])
+10 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:36:04 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:36:59 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:38:14 --> ErrorException: Undefined variable $menuArray
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Controllers\AdminPageController.php on line 480.
+ 1 APPPATH\Controllers\AdminPageController.php(480): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menuArray', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Controllers\\AdminPageController.php', 480)
+ 2 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 3 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 4 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:38:46 --> ErrorException: Undefined variable $menuArray
+[Method: GET, Route: Auth/Dashboard]
+in APPPATH\Controllers\AdminPageController.php on line 480.
+ 1 APPPATH\Controllers\AdminPageController.php(480): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menuArray', 'C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\app\\Controllers\\AdminPageController.php', 480)
+ 2 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 3 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 4 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:38:59 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 08:39:52 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: GET, Route: Auth/Dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AdminPageController.php(295): base_url(false)
+ 4 APPPATH\Controllers\AdminPageController.php(268): App\Controllers\AdminPageController->getSiteBarMenus()
+ 5 APPPATH\Controllers\AdminPageController.php(38): App\Controllers\AdminPageController->admin_panel_common_data()
+ 6 APPPATH\Controllers\AdminPageController.php(16): App\Controllers\AdminPageController->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPageController->default_dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 08:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 08:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 10:53:59 --> TypeError: CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in C:\Users\BrillsenseShailesh\Desktop\Projects\PHP8.2\HansaHandloom\Hansahandloom-Admin\app\Controllers\AdminApiController.php on line 28
+[Method: POST, Route: adminApi/City/Get]
+in SYSTEMPATH\Validation\Validation.php on line 136.
+ 1 APPPATH\Controllers\AdminApiController.php(28): CodeIgniter\Validation\Validation->run(Object(stdClass))
+ 2 APPPATH\Controllers\AdminApiController.php(221): App\Controllers\AdminApiController->ModelGet(Object(App\Models\CityModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminApiController->CityGet()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\BrillsenseShailesh\\Desktop\\Projects\\PHP8.2\\HansaHandloom\\Hansahandloom-Admin\\public\\index.php')
+INFO - 2024-06-17 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 10:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 11:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
